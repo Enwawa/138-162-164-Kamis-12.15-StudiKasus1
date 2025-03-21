@@ -77,7 +77,7 @@ int main () {
 	getline(cin, data.kewarganegaraan);
 	
 	cout<<endl;
-	
+	system("cls");
 	cout << "              PROVINSI  " << data.prov << endl;
     cout << "             KABUPATEN  " << data.kab << endl;
     cout << endl;
