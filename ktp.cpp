@@ -4,22 +4,22 @@ using namespace std;
 
 struct bio {
 	string nik;
-    string prov;
-    string kab;
-    string nama;
-    string tempat_lahir;
-    string tgl_lahir;
-    string jenis_kelamin;
-    string goldar;
-    string alamat;
-    string rt;
-    string rw;
-    string kelurahan;
-    string kecamatan;
-    string agama;
-    string status_perkawinan;
-    string pekerjaan;
-    string kewarganegaraan;
+    	string prov;
+    	string kab;
+    	string nama;
+    	string tempat_lahir;
+    	string tgl_lahir;
+    	string jenis_kelamin;
+    	string goldar;
+    	string alamat;
+    	string rt;
+    	string rw;
+    	string kelurahan;
+    	string kecamatan;
+    	string agama;
+    	string status_perkawinan;
+    	string pekerjaan;
+    	string kewarganegaraan;
 };
 
 int main () {
@@ -71,7 +71,7 @@ int main () {
 	getline(cin, data.status_perkawinan);
 	
 	cout<<"Masukkan Pekerjaan Anda: ";
-    getline(cin, data.pekerjaan);
+   	getline(cin, data.pekerjaan);
 	
 	cout<<"Masukkan Kewarganegaraan Anda: ";
 	getline(cin, data.kewarganegaraan);
@@ -79,22 +79,24 @@ int main () {
 	cout<<endl;
 	
 	cout << "              PROVINSI  " << data.prov << endl;
-    cout << "             KABUPATEN  " << data.kab << endl;
-    cout << endl;
-    cout << "NIK                : " << data.nik << endl;
-    cout << "Nama               : " << data.nama << endl;
-    cout << "Tempat/Tgl Lahir   : " << data.tempat_lahir<< "/"<< data.tgl_lahir << endl;
-    cout << "Jenis Kelamin      : " << data.jenis_kelamin << "            Gol. Darah: " << data.goldar << endl;
-    cout << "Alamat             : " << data.alamat << endl;
-    cout << "        RT/RW              : " << data.rt << "/" << data.rw << endl;
-    cout << "        Kel/Desa           : " << data.kelurahan << endl;
-    cout << "        Kecamatan          : " << data.kecamatan << endl;
-    cout << "Agama              : " << data.agama << endl;
-    cout << "Status Perkawinan  : " << data.status_perkawinan << endl;
-    cout << "Pekerjaan          : " << data.pekerjaan << endl;
-    cout << "Kewarganegaraan    : " << data.kewarganegaraan << endl;
-    cout << "Berlaku Hingga     : Seumur Hidup" << endl;
+    	cout << "             KABUPATEN  " << data.kab << endl;
+    	cout << endl;
+    	cout << "NIK                : " << data.nik << endl;
+    	cout << "Nama               : " << data.nama << endl;
+    	cout << "Tempat/Tgl Lahir   : " << data.tempat_lahir<< "/"<< data.tgl_lahir << endl;
+    	cout << "Jenis Kelamin      : " << data.jenis_kelamin << "            Gol. Darah: " << data.goldar << endl;
+    	cout << "Alamat             : " << data.alamat << endl;
+    	cout << "        RT/RW              : " << data.rt << "/" << data.rw << endl;
+    	cout << "        Kel/Desa           : " << data.kelurahan << endl;
+    	cout << "        Kecamatan          : " << data.kecamatan << endl;
+   	cout << "Agama              : " << data.agama << endl;
+    	cout << "Status Perkawinan  : " << data.status_perkawinan << endl;
+    	cout << "Pekerjaan          : " << data.pekerjaan << endl;
+    	cout << "Kewarganegaraan    : " << data.kewarganegaraan << endl;
+    	cout << "Berlaku Hingga     : Seumur Hidup" << endl;
 	
+	return 0;
+}
 	
 	
 	return 0;
